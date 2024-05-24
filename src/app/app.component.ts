@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from '/home/siyabonga/student_work/PhotoEditor/src/app/header/header.component';
 
 @Component({
   selector: 'app-root',
