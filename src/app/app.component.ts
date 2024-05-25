@@ -5,7 +5,7 @@ import { HeaderComponent } from '/home/siyabonga/student_work/PhotoEditor/src/ap
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
