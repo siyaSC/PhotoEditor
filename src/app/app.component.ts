@@ -9,10 +9,18 @@ import { HeaderComponent } from '../header/header.component';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+// export class AppComponent {
+//   title = 'photoEditor';
+//   isHighlighted = true;
+//   myClasses = ['highlight', 'uppercase'];
+//   login() {
+//     alert('Welcome!');
+//   }
+// }
 export class AppComponent {
-  title = 'photoEditor';
-  isHighlighted = true;
-  myClasses = ['highlight', 'uppercase'];
+  isRed = false;
 
-
+  change() {
+    this.isRed = !this.isRed;
+  }
 }
